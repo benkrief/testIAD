@@ -2,7 +2,7 @@
 Test Technique IAD : 
 
 <p align="center"><img src="https://img.shields.io/badge/PHP-7.4-blueviolet?style=for-the-badge&logo=PHP">&nbsp;
-  <img src="https://img.shields.io/badge/Symfony-4.26-grey?style=for-the-badge&logo=Symfony">&nbsp;
+  <img src="https://img.shields.io/badge/Symfony-4.26-white?style=for-the-badge&logo=Symfony">&nbsp;
 <img src="https://img.shields.io/badge/MySQL-8-9cf?style=for-the-badge&logo=MySQL"></p>
 
 **Réalisation du module d'API de contact**
