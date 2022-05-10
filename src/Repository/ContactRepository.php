@@ -39,6 +39,18 @@ class ContactRepository extends ServiceEntityRepository
         }
     }
 
+    //Permet la visualisation des contacts filtrés par leur activité ou inactivité
+    public function findByActive($value): array
+    {
+        return $this->createQueryBuilder('c')
+            ->andWhere('c.account = :value')
+            ->setParameter('value', $value)
+            ->orderBy('c.id', 'ASC')
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+
 //    /**
 //     * @return Contact[] Returns an array of Contact objects
 //     */
